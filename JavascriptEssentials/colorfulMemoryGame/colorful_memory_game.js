@@ -83,3 +83,9 @@ function startGameTimer(timeLeft) {
         }
     }, 1000);
 }
+const browserName = navigator.appName;
+const browserVersion = navigator.appVersion;
+console.log(`Navegador: ${browserName}`);
+console.log(`Version: ${browserVersion}`);
+const paragraphElements = document.getElementsByTagName('p');
+console.log(paragraphElements[1]);
