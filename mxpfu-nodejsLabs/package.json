@@ -1,0 +1,29 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/ibm-developer-skills-network/mxpfu-nodejsLabs#readme",
+  "bugs": {
+    "url": "https://github.com/ibm-developer-skills-network/mxpfu-nodejsLabs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibm-developer-skills-network/mxpfu-nodejsLabs.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start_auth": "nodemon index_withauth.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19"
+  }
+}
