@@ -1,0 +1,6 @@
+kubectl apply -f tasks.yaml
+tkn pipeline start --showlog hello-pipeline
+tkn pipeline start cd-pipeline \
+    --showlog \
+    -p repo-url="https://github.com/ibm-developer-skills-network/ttwst-jhxyb-ci-cd-pipeline_js.git" \
+    -p branch="main"
